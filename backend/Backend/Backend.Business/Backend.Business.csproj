@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Backend.DataAccess\Backend.DataAccess.csproj" />
+    <ProjectReference Include="..\Backend.Entities\Backend.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
